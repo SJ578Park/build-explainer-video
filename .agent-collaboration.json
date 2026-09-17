@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "remote": "origin",
+  "defaultBranch": "main",
+  "integrationMode": "single-integrator",
+  "integrators": [
+    "SJ578Park"
+  ],
+  "branchPattern": "codex/<YYYYMMDD>-<task>",
+  "handoff": {
+    "primary": "draft-pr",
+    "fallback": "git-bundle"
+  },
+  "checks": ["npm test", "npm run validate:example"],
+  "integrationOwnedPaths": [
+    "package.json",
+    ".agent-collaboration.json"
+  ]
+}
