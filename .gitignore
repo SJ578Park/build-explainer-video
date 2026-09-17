@@ -1,0 +1,11 @@
+.DS_Store
+node_modules/
+__pycache__/
+*.private.md
+*.private.json
+renders/
+media/
+handoff*/
+.env
+.env.*
+!.env.example

@@ -1,0 +1,4 @@
+interface:
+  display_name: "설명 영상과 발표 Break"
+  short_description: "내용별 시각 효과로 설명 영상을 만들고 발표용 Break까지 설계"
+  default_prompt: "Use $build-explainer-video to turn my presentation content into a standalone narrated video and a video-slide Break plan."
